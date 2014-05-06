@@ -6,7 +6,7 @@ Google closure compiler support with drop-in replacement for cq:includeClientLib
 What works
 ----------
 - Simple compilation is quite slow (whitespace-only is quite a bit faster), but it works, with /var/clientlibs caching
-- includeClientLib tag alternative which allows for google closure compiler js & clientlib includes. example is found in /apps/aemin/components/exzample
+- includeClientLib tag alternative which allows for google closure compiler js & clientlib includes. example is found in /apps/aemin/components/example
     <%@taglib prefix="aemin" uri="http://www.steeleforge.com/aem/aemin/taglib/1.0.0" %>
 
 
