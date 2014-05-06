@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/XML/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/XML/ns/j2ee http://java.sun.com/XML/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+    <description>aemin client library generator</description>
+    <tlib-version>1.0.0</tlib-version>
+    <short-name>aemin</short-name>
+    <uri>http://www.steeleforge.com/aem/aemin/taglib/1.0.0</uri>
+    <tag>
+        <name>includeClientLib</name>
+        <description>Refer to com.adobe.granite.ui.tags.IncludeClientLibraryTag TLD</description>
+        <tag-class>com.steeleforge.aem.chaat.taglib.IncludeClientTag</tag-class>
+        <body-content>empty</body-content>
+        <tag-class>
+            com.steeleforge.aem.aemin.taglib.ClosureIncludeClientLibraryTag
+        </tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>
+                Refer to com.adobe.granite.ui.tags.IncludeClientLibraryTag TLD
+            </description>
+            <name>categories</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>
+                Refer to com.adobe.granite.ui.tags.IncludeClientLibraryTag TLD
+            </description>
+            <name>themed</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>boolean</type>
+        </attribute>
+        <attribute>
+            <description>
+                Refer to com.adobe.granite.ui.tags.IncludeClientLibraryTag TLD
+            </description>
+            <name>theme</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>
+                Refer to com.adobe.granite.ui.tags.IncludeClientLibraryTag TLD
+            </description>
+            <name>js</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>
+                Refer to com.adobe.granite.ui.tags.IncludeClientLibraryTag TLD
+            </description>
+            <name>css</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1399337929152
+Build-Jdk: 1.7.0_51
+Built-By: david
+Bundle-ClassPath: .,guava-12.0.jar,closure-compiler-v20131014.jar
+Bundle-Description: Closure Compiled Javascript for AEM
+Bundle-ManifestVersion: 2
+Bundle-Name: aemin Bundle
+Bundle-SymbolicName: com.steeleforge.aem.aemin
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime
+Embedded-Artifacts: guava-12.0.jar;g="com.google.guava";a="guava";v="12.
+ 0",closure-compiler-v20131014.jar;g="com.google.javascript";a="closure-
+ compiler";v="v20131014"
+Import-Package: com.google.protobuf;resolution:=optional,javax.annotatio
+ n;resolution:=optional,javax.swing;resolution:=optional,javax.swing.bor
+ der;resolution:=optional,javax.swing.event;resolution:=optional,javax.s
+ wing.filechooser;resolution:=optional,javax.swing.table;resolution:=opt
+ ional,javax.swing.text;resolution:=optional,javax.swing.tree;resolution
+ :=optional,javax.xml.parsers;resolution:=optional,org.apache.tools.ant;
+ resolution:=optional,org.apache.tools.ant.types;resolution:=optional,or
+ g.json;resolution:=optional,org.kohsuke.args4j;resolution:=optional,org
+ .kohsuke.args4j.spi;resolution:=optional,org.xml.sax;resolution:=option
+ al,sun.misc;resolution:=optional
+Tool: Bnd-1.50.0
